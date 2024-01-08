@@ -1,9 +1,19 @@
-// Number
+//objects 
 
-const whole = 'hello';
-const decimal = 0.333;
-console.log(whole);
-console.log(decimal);
+let name,age;
+const person = { 
+    name: 'John', 
+    age: 25,
+}
 
-const result = whole/decimal
-console.log(typeof result)
+console.log(typeof person.name)
+
+
+
+//array 
+let damn = [1,2,3,4]
+console.log(damn)
+
+let date = new Date();
+
+console.log(date)
