@@ -1,19 +1,17 @@
-//objects 
+// comparison operators
 
-let name,age;
-const person = { 
-    name: 'John', 
-    age: 25,
-}
-
-console.log(typeof person.name)
+let a = 5 
+let b =2 
 
 
 
-//array 
-let damn = [1,2,3,4]
-console.log(damn)
 
-let date = new Date();
+// strict equality
 
-console.log(date)
+console.log(a===b)
+
+// strict inequality ->compares data types AND values
+
+console.log(a!==b)
+
+// always use strict equality
