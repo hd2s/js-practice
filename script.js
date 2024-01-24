@@ -1,11 +1,8 @@
-// truthy and falsy values
+const dogs = 5;
 
-if(0) {
-    console.log("Truthy");
+if (dogs) {
+    console.log(`you have ${dogs} dogs`);
 }
 else {
-    console.log("Falsy");
+    console.log("you have no dogs");
 }
-
-//falsy values are 0, null, undefined, NaN, false, "" (empty string)
-//truthy values are all values other than falsy values
