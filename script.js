@@ -1,8 +1,4 @@
-const dogs = 5;
-
-if (dogs) {
-    console.log(`you have ${dogs} dogs`);
-}
-else {
-    console.log("you have no dogs");
-}
+console.log('' || 0  || NaN || undefined)
+// Output: undefined
+console.log(1 && true && "damn" && 999)
+// Output: 999
