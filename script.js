@@ -1,12 +1,8 @@
-// if statement
+// truthy and falsy values
 
-const age = 18;
-if(age > 18) {
-    console.log("You are an adult, you can vote!");
-}
-else if(age === 18) {
-    console.log("You just turned 18, welcome!");
+if(1) {
+    console.log("Truthy");
 }
 else {
-    console.log("You are not an adult, you cannot vote!");
+    console.log("Falsy");
 }
