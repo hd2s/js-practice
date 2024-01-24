@@ -1,6 +1,6 @@
 // truthy and falsy values
 
-if(1) {
+if(5/5 == true) {
     console.log("Truthy");
 }
 else {
