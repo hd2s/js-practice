@@ -1,14 +1,13 @@
-console.log('' || 0  || NaN || undefined)
-// Output: undefined
-console.log(1 && true && "damn" && 999)
-// Output: 999
+function fibonacciSeries(n) {
+        let fibbSeries = [0, 1];
 
-var value = 0 ;
-if(!!value )
-{
-        console . log ( "value is truthy" ) ;
+        for (let i = 2; i < n; i++) {
+                fibbSeries[i] = fibbSeries[i - 1] + fibbSeries[i - 2];
+        }
+
+        return fibbSeries;
 }
-else
-{
-        console . log ( "value is falsy" ) ;
-}
+
+const n = 10; // Change the value of n to generate different number of Fibonacci numbers
+const fibbSeries = fibonacciSeries(n);
+console.log(fibbSeries);
